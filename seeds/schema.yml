@@ -1,0 +1,26 @@
+version: 2
+
+seeds:
+  - name: tea_staar_performance
+    description: "TEA STAAR performance data for Edinburg CISD, McAllen ISD, and Region One ESC, 2018-2025"
+    columns:
+      - name: Organization
+        description: "District or campus name"
+      - name: ID_CDC
+        description: "TEA district or campus ID"
+      - name: Administration
+        description: "School year of test administration"
+      - name: Tested_Grade
+        description: "Grade level tested"
+      - name: STAAR_Math_Tests_Taken
+        description: "Number of math tests taken"
+      - name: STAAR_Math_Meets_Above_Pct
+        description: "Percent meeting or exceeding standard in math"
+      - name: STAAR_Math_Masters_Pct
+        description: "Percent at masters level in math"
+      - name: STAAR_Reading_Tests_Taken
+        description: "Number of reading tests taken"
+      - name: STAAR_Reading_Meets_Above_Pct
+        description: "Percent meeting or exceeding standard in reading"
+      - name: STAAR_Reading_Masters_Pct
+        description: "Percent at masters level in reading"

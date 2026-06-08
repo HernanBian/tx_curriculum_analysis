@@ -37,3 +37,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   tx_curriculum_analysis:
     +materialized: view
+
+seeds:
+  tx_curriculum_analysis:
+    tea_staar_performance:
+      +column_types:
+        ID_CDC: varchar
+        Administration: varchar
+        Tested_Grade: varchar
