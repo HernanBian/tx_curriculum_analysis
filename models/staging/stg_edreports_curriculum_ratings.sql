@@ -15,6 +15,7 @@ renamed as (
         gateway3_rating,
         review_year,
         notes,
+        is_primary,
 
         -- derived field
         case
