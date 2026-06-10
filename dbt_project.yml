@@ -46,3 +46,16 @@ seeds:
         ID_CDC: varchar
         Administration: varchar
         Tested_Grade: varchar
+  edreports_curriculum_ratings:
+        +column_types:
+          district: varchar
+          curriculum_name: varchar
+          publisher: varchar
+          subject: varchar
+          grade_band: varchar
+          edreports_overall_rating: varchar
+          gateway1_rating: varchar
+          gateway2_rating: varchar
+          gateway3_rating: varchar
+          review_year: varchar
+          notes: varchar
