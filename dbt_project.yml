@@ -59,3 +59,4 @@ seeds:
           gateway3_rating: varchar
           review_year: varchar
           notes: varchar
+          is_primary: varchar
