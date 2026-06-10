@@ -31,12 +31,38 @@ seeds/
 └── edreports_curriculum_ratings.csv
 
 ## Key Findings
-- Edinburg CISD uses **Sharon Wells Mathematics** (K-5) as its primary math curriculum — 
-  a Texas-specific program not submitted for edReports review
-- McAllen ISD uses **HMH Texas Go Math!** which **Partially Meets Expectations** on edReports
-- IDEA Public Schools uses **Eureka Math** and **Wit & Wisdom**, both rated 
-  **Meets Expectations** — the highest edReports rating
-- Both RGV traditional public districts use ELA curricula rated **Meets Expectations**
+
+### Math Performance
+Both districts use lower-rated math curricula — Edinburg CISD uses Sharon Wells 
+Mathematics (not reviewed by edReports) and McAllen ISD uses HMH Texas Go Math! 
+(Partially Meets Expectations). Despite this similarity, their performance trajectories differ:
+
+| District | Math Curriculum | edReports Rating | Avg Math Meets % (2025) |
+|---|---|---|---|
+| Edinburg CISD | Sharon Wells Mathematics | Not Reviewed | 42.5% |
+| McAllen ISD | HMH Texas Go Math! | Partially Meets Expectations | 48-54% |
+
+### ELA Performance
+Both districts use highly-rated ELA curricula (Meets Expectations) and show 
+stronger reading performance than math:
+
+| District | ELA Curriculum | edReports Rating | Avg Reading Meets % (2025) |
+|---|---|---|---|
+| Edinburg CISD | Texas myView Literacy | Meets Expectations | 53.7% |
+| McAllen ISD | HMH Into Reading | Meets Expectations | 58-63% |
+
+### Post-COVID Recovery
+Both districts experienced a significant dip in Spring 2021. McAllen ISD showed 
+stronger recovery in both math and reading by Spring 2022-2023, suggesting factors 
+beyond curriculum rating — such as implementation quality, resources, and district 
+support — play a significant role in student outcomes.
+
+### Limitations
+- Edinburg CISD's primary math curriculum (Sharon Wells) has no edReports rating, 
+  making direct quality comparison difficult
+- Analysis covers only 2 of 3 planned districts — IDEA Public Schools STAAR data 
+  pending for within-region high-performing charter comparison
+- Correlation between curriculum rating and performance is suggestive, not causal
 
 ## Future Work
 - Add IDEA Public Schools STAAR performance data for within-region comparison
