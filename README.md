@@ -63,6 +63,9 @@ support — play a significant role in student outcomes.
 - Analysis covers only 2 of 3 planned districts — IDEA Public Schools STAAR data 
   pending for within-region high-performing charter comparison
 - Correlation between curriculum rating and performance is suggestive, not causal
+- Grade band matching between STAAR grade integers and edReports grade band ranges uses a
+  pattern-matching approach that may produce imprecise joins for certain grade levels —
+  a BETWEEN-based approach using parsed grade band boundaries is a planned improvement
 
 ## Future Work
 - Add IDEA Public Schools STAAR performance data for within-region comparison
@@ -71,6 +74,6 @@ support — play a significant role in student outcomes.
 - Build visualization layer
 
 ## Tools
-- dbt Core / dbt Cloud
-- Snowflake
-- GitHub
+- dbt Core / dbt Cloud [connected to Snowflake via RSA keypair authentication]
+- Snowflake [seeded manual data compilation from TEA and edReports public sources]
+- GitHub [Version Control]
