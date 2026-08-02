@@ -74,6 +74,6 @@ support — play a significant role in student outcomes.
 - Build visualization layer
 
 ## Tools
-- dbt Core / dbt Cloud [connected to Snowflake via RSA keypair authentication]
-- Snowflake [seeded manual data compilation from TEA and edReports public sources]
-- GitHub [Version Control]
+- dbt Core / dbt Cloud - connected to Snowflake via RSA keypair authentication
+- Snowflake - seeded manual data compilation from TEA and edReports public sources
+- GitHub - Version Control
