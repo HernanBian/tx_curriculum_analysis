@@ -4,7 +4,7 @@ with source as (
 
 renamed as (
     select
-        district                                as district_name,
+        UPPER(district)                                as district_name,
         curriculum_name,
         publisher,
         subject,
