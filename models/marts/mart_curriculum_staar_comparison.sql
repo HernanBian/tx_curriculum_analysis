@@ -37,22 +37,21 @@ joined as (
     and math_curr.subject = 'Math'
     and math_curr.is_primary = 'true'
     and (
-        math_curr.grade_band like '%' || s.grade || '%'
-        or math_curr.grade_band = 'K-8'
+        math_curr.grade_band = 'K-8'
         or math_curr.grade_band = 'K-5'
         or math_curr.grade_band = 'K-6'
     )
-        
+    and math_curr.grade_band !='8-9'
+
     left join edreports ela_curr
     on upper(s.district_name) = upper(ela_curr.district_name)
     and ela_curr.subject = 'ELA'
     and ela_curr.is_primary = 'true'
     and (
-        ela_curr.grade_band like '%' || s.grade || '%'
-        or ela_curr.grade_band = 'K-8'
+        ela_curr.grade_band = 'K-8'
         or ela_curr.grade_band = 'K-5'
         or ela_curr.grade_band = 'K-6'
     )
-)
+)   
 
 select * from joined

@@ -5,7 +5,7 @@ with source as (
 renamed as (
     select
         -- identifiers
-        organization                        as district_name,
+        UPPER(organization)                        as district_name,
         id_cdc                              as district_id,
         
         -- test administration

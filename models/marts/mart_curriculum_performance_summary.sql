@@ -29,7 +29,7 @@ summary as (
         count(distinct grade)               as grades_tested
 
     from base
-    where upper(district_name) in ('EDINBURG CISD', 'MCALLEN ISD')
+    where upper(district_name) in ('EDINBURG CISD', 'MCALLEN ISD', 'IDEA PUBLIC SCHOOLS')
     group by 1, 2, 3, 4, 5, 6, 7, 8
 )
 
