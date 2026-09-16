@@ -79,12 +79,12 @@ Despite using a Partially Meets Expectations Math curriculum, McAllen ISD has sh
 the most consistent improvement since 2022 — reaching 51.8% Math Meets and 64.5% 
 Reading Meets in Spring 2025, the highest of the three districts in both subjects.
 
-### Finding 4: IDEA's performance decline coincides with organizational challenges
+### Finding 4: IDEA's performance decline needs further inquiry
 IDEA Public Schools, which uses the highest-rated curricula of the three districts, 
-has shown declining Math performance since 2023 (40.8% → 37.2%) coinciding with 
-the TEA conservatorship initiated in March 2024 following investigations into 
-financial mismanagement. This suggests that organizational stability and leadership 
-may be more predictive of student outcomes than curriculum quality ratings alone.
+has shown declining Math performance since 2023 (40.8% → 37.2%). This analysis needs
+further investigation as statewide factors may be influencing regional performance.
+Further analysis is necessary before drawing conclusions about the relationship between
+curriculum quality and student performance.
 
 ### Overall Conclusion
 The relationship between curriculum quality ratings and STAAR performance is 
