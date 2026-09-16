@@ -98,6 +98,11 @@ health.
 ## Limitations
 - Analysis covers only 3 districts in a single region of Texas — findings 
   may not generalize to other contexts
+- STAAR data for IDEA Public Schools reflects aggregate data including campuses
+  across regions with different student populations. A planned campus-level 
+  analysis aggregating those IDEA campuses located in Edinburg and McAllen
+  to create a geographically comparable grouping for more direct comparison
+  to Edinburg CISD and McAllen ISD.
 - Correlation between curriculum rating and performance is suggestive, not causal
 - IDEA Public Schools data is missing grades 5 and 8 for Spring 2018, 2019, 
   and 2021 due to insufficient enrollment for TEA reporting thresholds
@@ -111,7 +116,7 @@ health.
 
 ## Future Work
 - Expand to additional high-performing districts across Texas for broader comparison
-- Add campus-level analysis within each district
+- Add campus-level aggregate analysis within each district
 - Build visualization layer in Sigma or Tableau
 - Implement BETWEEN-based grade band matching for more precise joins
 - Investigate implementation quality factors beyond curriculum ratings
@@ -120,3 +125,20 @@ health.
 - dbt Core / dbt Cloud — connected to Snowflake via RSA keypair authentication
 - Snowflake — data warehouse
 - GitHub — version control and project hosting
+
+## Sample Queries
+
+### Three-District Performance Comparison
+```sql
+select
+    district_name,
+    test_year,
+    math_curriculum,
+    math_curriculum_rating,
+    avg_math_meets_pct,
+    ela_curriculum,
+    ela_curriculum_rating,
+    avg_reading_meets_pct
+from {{ ref('mart_curriculum_performance_summary') }}
+order by test_year, district_name
+
