@@ -79,30 +79,26 @@ Despite using a Partially Meets Expectations Math curriculum, McAllen ISD has sh
 the most consistent improvement since 2022 — reaching 51.8% Math Meets and 64.5% 
 Reading Meets in Spring 2025, the highest of the three districts in both subjects.
 
-### Finding 4: IDEA's performance decline coincides with organizational challenges
+### Finding 4: IDEA's performance decline
 IDEA Public Schools, which uses the highest-rated curricula of the three districts, 
-has shown declining Math performance since 2023 (40.8% → 37.2%) coinciding with 
-the TEA conservatorship initiated in March 2024 following investigations into 
-financial mismanagement. This suggests that organizational stability and leadership 
-may be more predictive of student outcomes than curriculum quality ratings alone.
+has shown declining Math performance since 2023 (40.8% → 37.2%). Further development
+of the analysis is necessary before drawing any conclusions about the relationship
+between curriculum quality and student performance to include disaggregation of the
+IDEA Public Schools data to include and aggregate only schools who are closer
+geographically to create a more similar student population comparison.
 
 ### Overall Conclusion
-The relationship between curriculum quality ratings and STAAR performance is 
-more complex than a simple correlation. Implementation quality, organizational 
-stability, district leadership, and community context appear to significantly 
-influence student outcomes independent of curriculum rating. These findings 
-suggest that curriculum adoption decisions should consider not only quality 
-ratings but also implementation support, teacher training, and organizational 
-health.
+At this time, the relationship between curriculum quality and student performance
+is still under review. While bringing in IDEA Public Schools into the analysis proved
+useful context, the realization that the charter network spans the entire state of
+Texas requires a more complex analysis to disaggregate Edinburg and McAllen schools
+and form a more close comparison of student populations.
 
 ## Limitations
 - Analysis covers only 3 districts in a single region of Texas — findings 
   may not generalize to other contexts
 - STAAR data for IDEA Public Schools reflects aggregate data including campuses
-  across regions with different student populations. A planned campus-level 
-  analysis aggregating those IDEA campuses located in Edinburg and McAllen
-  to create a geographically comparable grouping for more direct comparison
-  to Edinburg CISD and McAllen ISD.
+  across regions with different student populations. 
 - Correlation between curriculum rating and performance is suggestive, not causal
 - IDEA Public Schools data is missing grades 5 and 8 for Spring 2018, 2019, 
   and 2021 due to insufficient enrollment for TEA reporting thresholds
@@ -116,7 +112,9 @@ health.
 
 ## Future Work
 - Expand to additional high-performing districts across Texas for broader comparison
-- Add campus-level aggregate analysis within each district
+- A planned campus-level analysis aggregating those IDEA campuses located in Edinburg 
+  and McAllen to create a geographically comparable grouping for more direct comparison
+  to Edinburg CISD and McAllen ISD.
 - Build visualization layer in Sigma or Tableau
 - Implement BETWEEN-based grade band matching for more precise joins
 - Investigate implementation quality factors beyond curriculum ratings
